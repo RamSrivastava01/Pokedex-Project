@@ -24,3 +24,8 @@
   background-color: rgba(140, 140, 216, 0.571);
   border-radius: 10px;
 }
+a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}

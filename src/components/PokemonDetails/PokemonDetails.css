@@ -1,0 +1,22 @@
+.pokemon-details-wrapper {
+  gap: 0.5rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+  margin: 5rem auto;
+  font-size: 32px;
+  background-color: rgb(169, 108, 227);
+  width: 50%;
+  border-radius: 16px;
+  box-shadow: grey 8px 9px 5px;
+  color: white;
+  text-align: center;
+}
+
+.weight,
+.height {
+  font-size: larger;
+}
+
+.pokemon-details-types {
+  margin: 12px;
+}

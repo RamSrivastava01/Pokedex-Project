@@ -7,7 +7,6 @@ function PokemonList() {
   const [pokemonList, setPokemonList] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   let [page, setPage] = useState(0);
-  console.log(page);
 
   const [pokedexUrl, setPokedexUrl] = useState(
     "https://pokeapi.co/api/v2/pokemon"
@@ -71,7 +70,7 @@ function PokemonList() {
           <h1>Loading</h1>
         ) : (
           pokemonList.map((p) => (
-            <Pokemon name={p.name} image={p.image} key={p.id} />
+            <Pokemon name={p.name} image={p.image} key={p.id} id={p.id} />
           ))
         )}
       </div>
