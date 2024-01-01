@@ -33,12 +33,12 @@ const PokemonDetails = () => {
 
   return (
     <div className="pokemon-details-wrapper">
-      <div className="pokemon-details-name">name: {pokemon.name}</div>
-      <img className="pokemon-image" src={pokemon.image} />
-      <div className="height">height : {pokemon.height}</div>
-      <div className="weight">weight : {pokemon.weight}</div>
-      <div className="pokemon-details-types">
-        {pokemon.types && pokemon.types.map((t) => <div key={t}> ⇨ {t} </div>)}
+        <div className="pokemon-details-name">name: {pokemon.name}</div>
+        <img className="pokemon-image" src={pokemon.image} />
+        <div className="height">height : {pokemon.height}</div>
+        <div className="weight">weight : {pokemon.weight}</div>
+        <div className="pokemon-details-types">
+        {pokemon.types && pokemon.types.map((t) => <div key={t}> ➵ {t} </div>)}
       </div>
     </div>
   );
